@@ -45,6 +45,25 @@ button {
     padding: 0.6em;
     font-size: 0.9em;
 }
+.footer {
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+}
+.footer>a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 1.1em;
+    border: 1px solid white;
+    border-color: white;
+    padding: 0.5em;
+    transition: all 0.3s ease 0s;
+}
 @media (min-width: 700px) {
     .quote-box {
         min-height: 120px;
